@@ -41,16 +41,10 @@
             "outputPath": "dist/ngx-ivy-rendercomponent-app",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": [],
+            "styles": [],
             "scripts": []
           },
           "configurations": {
@@ -68,6 +62,7 @@
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
+              "commonChunk": false,
               "buildOptimizer": true,
               "budgets": [
                 {
