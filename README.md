@@ -1,4 +1,4 @@
-6.8 KB gzipped (17.4 KB uncompressed).
+6.7 KB gzipped (17.2 KB uncompressed).
 
 Hello World Angular app using renderComponent.
 
