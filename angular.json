@@ -36,7 +36,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "ngx-build-plus:browser",
           "options": {
             "outputPath": "dist/ngx-ivy-rendercomponent-app",
             "index": "src/index.html",
@@ -65,6 +65,7 @@
               "commonChunk": false,
               "es5BrowserSupport": false,
               "buildOptimizer": true,
+              "singleBundle": true,
               "budgets": [
                 {
                   "type": "initial",
